@@ -18,6 +18,7 @@ import eventBus from "@/event";
 import {AthenaClient} from "@aws-sdk/client-athena";
 import {Auth} from "@aws-amplify/auth";
 import queryDao from "@/data/queryDAO";
+import awsconfig from "@/aws-exports";
 export default {
   name: "QueriesHistory",
   async created() {
